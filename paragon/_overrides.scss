@@ -1,7 +1,15 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
-.bt-brand {
-  background-color: #E30613;
-  border-color: #E30613;    
+#root {
+  .layout {
+    .content {
+      #main-content {
+        .bt-brand {
+          background-color: #E30613;
+          border-color: #E30613;    
+        }
+      }
+    }
+  }
 }
